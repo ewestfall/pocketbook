@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 #This is a test message
-
+gem 'bcrypt'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
