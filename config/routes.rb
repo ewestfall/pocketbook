@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  root 'pages#signup'
   
   get 'pages/contact' => 'pages#contact'
   get 'pages/help' => 'pages#help'
