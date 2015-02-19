@@ -3,6 +3,9 @@ Rails.application.routes.draw do
   get 'pages/contact' => 'pages#contact'
   get 'pages/help' => 'pages#help'
   get 'pages/about' => 'pages#about'
+  get 'sessions/login' => 'sessions#new'
+
+  post 'sessions/login' =>'sessions#create'
 
   resources :users
   
