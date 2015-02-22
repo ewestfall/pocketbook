@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
   
-  get 'pages/contact' => 'pages#contact'
-  get 'pages/help' => 'pages#help'
-  get 'pages/about' => 'pages#about'
-  get 'sessions/login' => 'sessions#new'
+  get 'contact' => 'pages#contact'
+  get 'help' => 'pages#help'
+  get 'about' => 'pages#about'
+  get 'login' => 'sessions#new'
 
-  post 'sessions/login' =>'sessions#create'
+  post 'login' =>'sessions#create'
 
   resources :users
   
